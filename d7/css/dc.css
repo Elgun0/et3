@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+.clear{
+    clear: both;
+}
+/* Header start */
+.header{
+    color: #fff;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+}
+.header .logo{
+    float: left;
+    padding: 10px;
+}
+.header .menu{
+    float: right;
+}
+.header .menu .dropmenu{
+    list-style: none;
+    float: left;
+    padding: 20px 15px;
+    position: relative;
+    cursor: pointer;
+}
+.header .menu .bigDropmenu{
+    float: left;
+    padding: 20px 15px;
+    list-style: none;
+}
+.header .menu .dropmenu:hover .dropdown{
+    display: block;
+    background: #fff;
+}
+.header .menu .bigDropmenu .bigDropdown li a{
+    color: #000;
+}
+/* .header .menu li a{
+    color: #fff;
+} */
+.header .menu .dropdown {
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    left: 0;
+    list-style: none;
+    box-shadow: 2px 11px 20px 0px #000;
+    display: none;
+}
+.header .menu .dropdown li{
+    padding: 12px;
+}
+.header .menu .dropdown li a{
+    color: #000;
+}
+.header .menu .dropmenu:hover>a,
+.header .menu .bigDropmenu:hover>a,
+.header .menu .dropmenu .dropdown li:hover>a
+{
+    color: #f51e46;
+}
+.header .menu .dropmenu a,
+.header .menu .bigDropmenu a{
+    color: #fff;
+}
+.portAllDrop{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    box-shadow: 2px 11px 20px 0px #000;
+    display: none;
+    background: #fff;
+}
+.portAllDrop ul{
+    list-style: none;
+}
+.header .menu .bigDropmenu li a{
+    color: #000;
+}
+.header .menu .bigDropmenu li:hover a{
+    color: #f51e46;
+} 
+.bigDropmenu:hover .portAllDrop{
+    display: block;
+}
+.portAllDrop .port-item{
+    float: left;
+    width: 25%;
+}
+.portAllDrop .port-item li{
+    padding: 12px;
+}
+.portAllDrop .port-item h3{
+    color: #000;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+/* Header end */
+/* Short Codes start */
+.ShortCodes{
+    background: url(../photo/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.ShortCodes .short-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.ShortCodes h1,
+.ShortCodes p
+{
+    text-transform: uppercase;
+}
+.ShortCodes h1{
+    font-size: 4.3em;
+}
+.ShortCodes p{
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+/* Short Codes end */
+/* Creative start */
+#creative{
+    padding: 40px 0;
+}
+.wrapper2{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+#creative .creative-left,
+#creative .creat-text{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+#creative .creative-left .creative-item{
+    width: 50%;
+    float: left;
+    margin-bottom: 15px;
+}
+#creative .creat-text{
+    float: left;
+}
+#creative .creat-ico{
+    width: 19%;
+    float: left;
+    margin-right: 15px;
+    padding: 21px 0px;
+    border-radius: 50%;
+    border: 1px solid rgb(190, 189, 189);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+#creative .creative-left h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(56, 55, 55);
+}
+#creative .creative-left p{
+    font-size: 18px;
+    color: grey;
+    font-weight: 100;
+}
+#creative .creative-left i{
+    color: #a9cd2e;
+}
+#creative .wrapper2 .creative-rigth{
+    width: 40%;
+    float: left;
+    margin-top: 80px;
+}
+#creative .wrapper2 .creative-rigth span{
+    color: #a9cd2e;
+    font-size: 20px;
+    font-weight: 700;
+}
+#creative .wrapper2 .creative-rigth h1{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#creative .wrapper2 .creative-rigth .line{
+    display: block;
+    height: 2px;
+    width: 50px;
+    background: #a9cd2e;
+    margin-bottom: 30px;
+}
+#creative .wrapper2 .creative-rigth p{
+    color: grey;
+    font-size: 18px;
+}
+#creative .wrapper2 .creative-rigth button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    background: #a9cd2e;
+    margin-top: 40px;
+    border: none;
+    transition: .4s;
+}
+#creative .wrapper2 .creative-rigth button:hover{
+    background: black;
+}
+.clr{
+    clear: both;
+}
+/* Creative end */
+/* Row */
+.row{
+    padding: 100px 0px;
+}
+.wrapper3{
+    width: 100%;
+    margin: auto;
+    float: left;
+    position: relative;
+    height: 700px;
+}
+.row .wrapper3 .row-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: url(../photo/58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.row .wrapper3 .row-right {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    font-size: 25px;
+    left: 20px;
+}
+.row .wrapper3 .row-right h5{
+    color: #a9cd2e;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.row .wrapper3 .row-right h2{
+    font-size: 40;
+    margin-bottom: 15px;
+}
+.row .wrapper3 .row-right .line2{
+    display: block;
+    height: 2px;
+    width: 80px;
+    background: #a9cd2e;
+    margin-bottom: 30px;
+    margin-left: 776px;
+}
+.row .wrapper3 .row-right h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.row .wrapper3 .row-right h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+    margin-bottom: 40px;
+}
+.row .wrapper3 .row-right i{
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+    margin-bottom: 30px;
+}
+.row .wrapper3 .row-right button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    background: #a9cd2e;
+    margin-top: 40px;
+    border: none;
+    margin-left: 150px;
+    transition: .4s;
+}
+.row .wrapper3 .row-right button:hover{
+    background: black;
+}
+.clear{
+    clear: both;
+}
+/* Row end */
+/* Pattren start */
+.pattren{
+    padding: 100px;
+    background: url(../photo/pattren23.jpg);
+    height: 150vh;
+}
+.pattren .pat-top{
+    text-align: center;
+    color: #fff;
+}
+.pattren .pat-top h5{
+    font-size: 25px;
+    font-weight: 100;
+}
+.pattren .pat-top h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.pattren .pat-top .line3{
+    display: block;
+    height: 2px;
+    width: 150px;
+    background: #fff;
+    margin:auto;
+}
+.pattren .pat-top h6{
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.pattren .pat-bottom{
+    width: 80%;
+    margin: auto;
+}
+.pattren .pat-bottom .pat-item{
+    float: left;
+    width: 33%;
+    color: black;
+}
+.pattren .pat-bottom .pat-icon{
+    background: #fff;
+    color: #a9cd2e;
+    padding: 160px;
+    border-radius: 2%;
+    width: 150px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
